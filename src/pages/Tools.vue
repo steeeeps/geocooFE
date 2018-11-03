@@ -10,7 +10,7 @@
                 </MergeTool>
             </v-flex>
             <v-flex xs12 md11>
-                <ToolTips ></ToolTips>
+                <ToolTips></ToolTips>
             </v-flex>
         </v-layout>
     </v-container>
@@ -18,20 +18,20 @@
 </template>
 
 <script>
-    import FormatTool from '../components/FormatTool.vue'
-    import MergeTool from "../components/MergeTool.vue"
-    import ToolTips from "../components/ToolTips.vue"
-    export default {
-        components: {
-            FormatTool,
-            MergeTool,
-            ToolTips
+import FormatTool from '../components/FormatTool.vue'
+import MergeTool from "../components/MergeTool.vue"
+import ToolTips from "../components/ToolTips.vue"
+export default {
+    components: {
+        FormatTool,
+        MergeTool,
+        ToolTips
 
-        },
-        data: () => {
-            return {}
-        }
+    },
+    data: () => {
+        return {}
     }
+}
 </script>
 
 <style scoped>

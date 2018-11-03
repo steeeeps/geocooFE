@@ -10,9 +10,9 @@
                     数据管理工具
                 </v-btn>
             </router-link>
-            <router-link to="/wallpapers">
+            <router-link to="/earthview">
                 <v-btn flat>
-                    Geo Wallpapers
+                    Earth view
                 </v-btn>
             </router-link>
             <!-- <v-btn flat>帮助</v-btn> -->
@@ -21,35 +21,34 @@
 
 </template>
 <style scoped>
-    .logo-a{
-        background:none !important;
-    }
-    .logo {
-        max-height: 40px;
-        margin-top: 25px;
-    }
+.logo-a {
+  background: none !important;
+}
+.logo {
+  max-height: 40px;
+  margin-top: 25px;
+}
 
-    .beta {
-        font-size: 14px;
-        color: #ffd04b;
-        margin-left: -10px;
-        position: relative;
-        top: -20px;
-    }
+.beta {
+  font-size: 14px;
+  color: #ffd04b;
+  margin-left: -10px;
+  position: relative;
+  top: -20px;
+}
 
-    a {
-        color: #fff;
-        text-decoration: none;
-        line-height: 64px;
-    }
+a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 64px;
+}
 
-    .router-link-active {
-
-        background-color: #74b6f74f;
-    }
+.router-link-active {
+  background-color: #74b6f74f;
+}
 </style>
 <script>
-    export default {
+export default {
 
-    }
+}
 </script>

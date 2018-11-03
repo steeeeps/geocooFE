@@ -77,7 +77,7 @@
                         <em>Founded on Google Earth View
                             <!-- <a herf="https://earthview.withgoogle.com/" target="_blank">Google Earth View</a> -->
                         </em>
-                        <v-btn class="blue lighten-2 mt-5" dark large href="/wallpapers">
+                        <v-btn class="blue lighten-2 mt-5" dark large href="/earthview">
                             浏览
                         </v-btn>
                     </v-layout>

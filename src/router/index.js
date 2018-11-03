@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Tools from '../pages/Tools.vue'
 import Home from '../pages/Home.vue'
-import Wallpapers from "../pages/Wallpapers.vue"
+import Earthview from "../pages/Earthview.vue"
 
 Vue.use(VueRouter)
 
@@ -15,8 +15,8 @@ const routes = [{
     component: Home
 },
 {
-    path: '/wallpapers',
-    component: Wallpapers
+    path: '/earthview',
+    component: Earthview
 }
 ]
 const router = new VueRouter({

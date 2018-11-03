@@ -32,6 +32,31 @@ export default {
 
     merge (data, success, failure) {
         upload(baseUrl + "/vector/shpmerge", data, success, failure);
-    }
+    },
+    listEarthViews (data, success, failure) {
+        axios.get(baseUrl + "/earthview/list/" + data.page + "/" + data.size).then((response) => {
+            let status = response.status,
+                result = response.data;
+            if (status === 200) {
+                isFunc(success) && success(result)
+            } else {
+                isFunc(failure) && failure(result)
+            }
+        })
+    },
+    randomEarthViews (data, success, failure) {
+        axios.get(baseUrl + "/earthview/random/" + data.size).then((response) => {
+            let status = response.status,
+                result = response.data;
+            if (status === 200) {
+                isFunc(success) && success(result)
+            } else {
+                isFunc(failure) && failure(result)
+            }
+        })
+    },
+    downloadEarthview (id) {
+        window.open(baseUrl + "/earthview/download/" + id, "_blank");
 
+    }
 }
