@@ -10,9 +10,9 @@
                     数据管理工具
                 </v-btn>
             </router-link>
-            <router-link to="/earthview">
+            <router-link to="/earthviews">
                 <v-btn flat>
-                    Earth view
+                    Earth views
                 </v-btn>
             </router-link>
             <!-- <v-btn flat>帮助</v-btn> -->

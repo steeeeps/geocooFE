@@ -15,7 +15,7 @@ const routes = [{
     component: Home
 },
 {
-    path: '/earthview',
+    path: '/earthviews',
     component: Earthview
 }
 ]
